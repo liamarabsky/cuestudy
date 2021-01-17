@@ -1,0 +1,69 @@
+body {
+    background-color: white;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.inputStyle {
+    position: relative;
+    display: inline-block;
+    height: 30pt;
+    width: 90pt;
+}
+
+.inputStyle2:hover {
+    background-color: #efefef;
+}
+
+.inputStyle2 {
+    position: absolute;
+    top: -5pt;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    height: 13pt;
+    padding: 5pt;
+    line-height: normal;
+    color: #4f4f4f;
+    background-color: #ffffff;
+    border: 1pt solid #cfcfcf;
+    border-radius: 5pt;
+}
+
+.inputStyle2:after {
+    content: "Import Deck";
+    padding: 0pt;
+    margin: 0pt;
+  }
+
+#description {
+    margin-top: 10vh;
+}
+
+#deck {
+    color: white;
+    width: 0pt;
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 60vh;
+    width: 60%;
+    background-color: #FFFDD0;
+}
+
+#cardContent {
+    font-size: 24pt;
+    white-space: pre-wrap;
+}
+
+#shuffle {
+    display: block;
+    margin-top: 20pt;
+    text-decoration: none;
+    color: #4f4f4f;
+}
