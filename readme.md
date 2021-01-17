@@ -1,5 +1,5 @@
 # Overview
-CueStudy is a simplistic flaschard utility that based in the web browser. It was created for the Hack the North 2020 event.
+CueStudy is a simplistic flaschard utility based in the web browser. It was created for the Hack the North 2020++ event.
 
 ## Pencil Format
 The flashcards are read from a file uploaded by the user which conforms to a formatting standard which can be seen in action in the `provinces.txt` file.
