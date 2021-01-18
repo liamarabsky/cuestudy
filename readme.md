@@ -4,7 +4,7 @@ CueStudy is a simplistic flaschard utility based in the web browser. It was crea
 ## Pencil Format
 The flashcards are read from a file uploaded by the user which conforms to a formatting standard which can be seen in action in the `provinces.txt` file.
 
-The first entry is the cue and is proceeded by the delimiter ✐ ( `U+2710` ) followed by the answer. These three items make up a single flashcard.
+The first entry is the cue and is proceeded by the delimiter ✐ ( `U+2710` ) followed by the answer and another ✐ character. These three items make up a single flashcard.
 
 ## Attributes
 Thank you to
